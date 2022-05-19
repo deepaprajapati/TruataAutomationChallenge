@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24111" started-at="2022-05-19T08:45:39Z" finished-at="2022-05-19T08:46:03Z">
+    <groups>
+      <group name="Test2">
+        <method signature="Location_Spa.TestCase03_1_selectLocation()[pri:1, instance:null(com.tester.buyagift_project.Location_Spa)]" name="TestCase03_1_selectLocation" class="com.tester.buyagift_project.Location_Spa"/>
+        <method signature="Location_Spa.TestCase03_2_validateLocationSpaDetails()[pri:2, instance:null(com.tester.buyagift_project.Location_Spa)]" name="TestCase03_2_validateLocationSpaDetails" class="com.tester.buyagift_project.Location_Spa"/>
+      </group> <!-- Test2 -->
+    </groups>
+    <test name="Default test" duration-ms="24111" started-at="2022-05-19T08:45:39Z" finished-at="2022-05-19T08:46:03Z">
+      <class name="com.tester.buyagift_project.Location_Spa">
+        <test-method status="PASS" signature="setUpTests()[pri:0, instance:null(com.tester.buyagift_project.Location_Spa)]" name="setUpTests" is-config="true" duration-ms="17273" started-at="2022-05-19T08:45:39Z" finished-at="2022-05-19T08:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="TestCase03_1_selectLocation()[pri:1, instance:null(com.tester.buyagift_project.Location_Spa)]" name="TestCase03_1_selectLocation" duration-ms="5138" started-at="2022-05-19T08:45:57Z" description="Test Case 3 Step 1,2:Select Experiences -&gt; Spa -&gt; London" finished-at="2022-05-19T08:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03_1_selectLocation -->
+        <test-method status="PASS" signature="screenshots(org.testng.ITestResult)[pri:0, instance:null(com.tester.buyagift_project.Location_Spa)]" name="screenshots" is-config="true" duration-ms="428" started-at="2022-05-19T08:46:02Z" finished-at="2022-05-19T08:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase03_1_selectLocation on null(com.tester.buyagift_project.Location_Spa) status=SUCCESS method=Location_Spa.TestCase03_1_selectLocation()[pri:1, instance:null(com.tester.buyagift_project.Location_Spa)] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TestCase03_2_validateLocationSpaDetails()[pri:2, instance:null(com.tester.buyagift_project.Location_Spa)]" name="TestCase03_2_validateLocationSpaDetails" duration-ms="143" started-at="2022-05-19T08:46:02Z" description="Test Case 3 Step 3: Validate London Spa page and filter" finished-at="2022-05-19T08:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03_2_validateLocationSpaDetails -->
+        <test-method status="PASS" signature="screenshots(org.testng.ITestResult)[pri:0, instance:null(com.tester.buyagift_project.Location_Spa)]" name="screenshots" is-config="true" duration-ms="326" started-at="2022-05-19T08:46:02Z" finished-at="2022-05-19T08:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase03_2_validateLocationSpaDetails on null(com.tester.buyagift_project.Location_Spa) status=SUCCESS method=Location_Spa.TestCase03_2_validateLocationSpaDetails()[pri:2, instance:null(com.tester.buyagift_project.Location_Spa)] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:null(com.tester.buyagift_project.Location_Spa)]" name="stopBrowser" is-config="true" duration-ms="762" started-at="2022-05-19T08:46:03Z" finished-at="2022-05-19T08:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.tester.buyagift_project.Location_Spa -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

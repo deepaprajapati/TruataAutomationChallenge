@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BuyaGiftSuite]">
+  <test thread-count="5" name="BuyaGiftTest(failed)">
+    <classes>
+      <class name="com.tester.buyagift_project.BestSeller_Hotel">
+        <methods>
+          <include name="TestCase02_2_validatePaymentTotal"/>
+          <include name="TestCase02_1_verifyNameAndPriceOnProductPage"/>
+          <include name="screenshots"/>
+          <include name="stopBrowser"/>
+          <include name="TestCase01_verifyBestSellerResult"/>
+          <include name="setUpTests"/>
+        </methods>
+      </class> <!-- com.tester.buyagift_project.BestSeller_Hotel -->
+      <class name="com.tester.buyagift_project.Location_Spa">
+        <methods>
+          <include name="TestCase03_1_selectLocation"/>
+          <include name="screenshots"/>
+          <include name="stopBrowser"/>
+          <include name="TestCase03_2_validateLocationSpaDetails"/>
+          <include name="setUpTests"/>
+        </methods>
+      </class> <!-- com.tester.buyagift_project.Location_Spa -->
+    </classes>
+  </test> <!-- BuyaGiftTest(failed) -->
+</suite> <!-- Failed suite [BuyaGiftSuite] -->

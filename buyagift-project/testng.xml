@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BuyaGiftSuite">
+  <test name="BuyaGiftTest" preserve-order="true">
+	<classes>
+            <class name="com.tester.buyagift_project.BestSeller_Hotel" />
+            <class name="com.tester.buyagift_project.Location_Spa" />
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
