@@ -3,7 +3,9 @@
 # Files
 
 Full Source Code: [tester](https://github.com/deepaprajapati/TruataAutomationChallenge/tree/main/buyagift-project/src/test/java/com/tester "tester")
+
 Test Files: [buyagift_project](https://github.com/deepaprajapati/TruataAutomationChallenge/tree/main/buyagift-project/src/test/java/com/tester/buyagift_project "buyagift_project")
+
 Common Files and Page Files: [buyagift](https://github.com/deepaprajapati/TruataAutomationChallenge/tree/main/buyagift-project/src/test/java/com/tester/buyagift "buyagift")
 
 [buyagift-project](https://github.com/deepaprajapati/TruataAutomationChallenge/tree/main/buyagift-project "buyagift-project") stores test files, 
